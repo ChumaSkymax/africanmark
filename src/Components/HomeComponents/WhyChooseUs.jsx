@@ -86,7 +86,7 @@ const WhyChooseUs = () => {
       />
       <div className="flex flex-col md:flex-row items-center justify-center gap-8 mt-12">
         <motion.img
-          className="max-w-sm w-full rounded-xl h-auto shadow-lg transition-transform duration-300 ease-out hover:scale-[1.03] hover:-translate-y-1"
+          className="max-w-sm w-full rounded-xl h-auto shadow-lg transition-transform duration-300 ease-out hover:scale-[1.03] hover:-translate-y-1 gpu-smooth"
           src={assets.aboutImg}
           alt="About us"
           initial={{ opacity: 0, scale: 0.98, y: 6 }}

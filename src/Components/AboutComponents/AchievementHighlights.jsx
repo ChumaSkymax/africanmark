@@ -17,7 +17,7 @@ const AchievementHighlights = () => {
       viewport={{ once: true, amount: 0.2 }}
     >
       <motion.img
-        className="max-w-2xl w-full xl:-ml-32 rounded-xl  hover:scale-105 transition-transform duration-500 ease-out"
+        className="max-w-2xl w-full xl:-ml-32 rounded-xl  hover:scale-105 transition-transform duration-500 ease-out gpu-smooth"
         src={assets.achievementImage}
         alt="AfricanMark Achievements "
         initial={{ opacity: 0, scale: 0.96, y: 8 }}

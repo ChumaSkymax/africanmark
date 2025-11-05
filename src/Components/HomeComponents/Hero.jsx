@@ -63,9 +63,9 @@ const Hero = () => {
           Audit, tax, accounting, and advisory solutions that drive impact —
           trusted by public institutions, NGOs, and private clients since 2015.
         </p>
-        <div className="flex flex-col md:flex-row items-center mt-8 gap-3">
+        <div className="flex flex-col md:flex-row items-center mt-8 mb-8 gap-3 w-full">
           <motion.button
-            className="bg-primary text-white px-6 pr-2.5
+            className="bg-primary text-white px-6 pr-2.5 w-full md:w-auto justify-center
             cursor-pointer py-2.5 rounded-full text-sm font-medium flex items-center space-x-2 hover:bg-secondary transition"
             type="button"
             onClick={() => navigate("/about")}
@@ -91,7 +91,8 @@ const Hero = () => {
             </motion.svg>
           </motion.button>
           <motion.a
-            className="text-primary bg-gray-300 px-5 py-2 rounded-full text-sm font-medium hover:bg-gray-200 transition cursor-pointer hover:scale-105 transition duration-300"
+            className="text-primary bg-gray-300 px-5 py-2 rounded-full text-sm font-medium hover:bg-gray-200
+              cursor-pointer hover:scale-105 transition duration-300 w-full md:w-auto text-center"
             onClick={() => navigate("/contact")}
             whileTap={{ scale: 0.97 }}
           >
@@ -102,7 +103,7 @@ const Hero = () => {
       <div className="flex justify-center items-center">
         <motion.img
           alt="AfricanMark hero image"
-          className="w-120 max-w-2xl  rounded-lg hover:scale-105 transition duration-300 object-cover flex-shrink-0 shadow-lg"
+          className="w-120 max-w-2xl  rounded-lg hover:scale-105 transition duration-300 object-cover flex-shrink-0 shadow-lg gpu-smooth"
           src={assets.heroImg}
           initial={{ opacity: 0, scale: 0.98 }}
           whileInView={{ opacity: 1, scale: 1 }}

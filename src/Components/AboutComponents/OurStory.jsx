@@ -19,7 +19,7 @@ const OurStory = () => {
         viewport={{ once: true }}
       >
         <motion.img
-          className="max-w-md w-full object-cover rounded-2xl"
+          className="max-w-md w-full object-cover rounded-2xl gpu-smooth"
           src={assets.aboutImg}
           alt="about-image"
           initial={{ opacity: 0 }}
@@ -69,7 +69,7 @@ const OurStory = () => {
               viewport={{ once: true }}
             />
             <motion.div
-              className="flex items-center justify-center text-xs  text-white size-10 rounded-full border-[3px] border-white bg-primary hover:-translate-y-1 transition z:[4]"
+              className="flex items-center justify-center text-xs  text-white size-10 rounded-full border-[3px] border-white bg-primary hover:-translate-y-1 transition z-[5]"
               initial={{ opacity: 0, y: 8 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: 0.15 }}

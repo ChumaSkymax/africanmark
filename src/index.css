@@ -8,6 +8,23 @@
   font-weight: 500;
 }
 
+/* Mobile scroll stability */
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* Reduce flicker during transforms on mobile */
+.gpu-smooth {
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+/* Avoid blue tap highlight on mobile */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 @theme {
   --color-primary: #6c2725;
   --color-secondary: #e1843e;
