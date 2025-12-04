@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const OurStory = () => {
   return (
     <motion.section
-      className="flex flex-col md:flex-row items-center justify-center gap-8 px-6 md:px-12 lg:px-24 xl:px-32 mt-30 mb-20 "
+      className="flex flex-col md:flex-row items-center justify-center gap-8 px-6 md:px-12 lg:px-24 xl:px-32 mt-36 mb-20 "
       initial={{ opacity: 0, y: 12 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}

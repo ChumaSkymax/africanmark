@@ -14,7 +14,7 @@
     "motion": "^12.23.24",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-hot": "^0.0.1",
+    "react-hot-toast": "^2.6.0",
     "react-router-dom": "^7.9.3",
     "tailwindcss": "^4.1.14",
     "toast": "^0.5.4"

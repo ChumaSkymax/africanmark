@@ -5,7 +5,7 @@ const ContactBanner = () => {
   return (
     <motion.section
       aria-labelledby="contact-heading"
-      className="px-6 md:px-16 lg:px-24 xl:px-32 pt-30 pb-20"
+      className="px-6 md:px-16 lg:px-24 xl:px-32 pt-36 pb-20"
       initial={{ opacity: 0, y: 10 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}

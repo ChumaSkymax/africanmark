@@ -43,7 +43,7 @@ const Navbar = ({ theme, setTheme }) => {
           transition={{ duration: 0.4, delay: 0.1 }}
           src={assets.AfriLogoo}
           alt="AfriLogo"
-          className="h-14"
+          className="h-18 max-sm:h-14"
         />
       </Link>
 

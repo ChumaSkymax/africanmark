@@ -49,7 +49,7 @@ const OurServices = () => {
   ];
   return (
     <motion.section
-      className="flex flex-col justify-center items-center px-6 md:px-16 lg:px-24 xl:px-32 pt-32 pb-20 "
+      className="flex flex-col justify-center items-center px-6 md:px-16 lg:px-24 xl:px-32 pt-36 pb-20 "
       initial={{ opacity: 0, y: 12 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
