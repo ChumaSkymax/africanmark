@@ -9,6 +9,7 @@ import Contact from "./Pages/Contact";
 import Footer from "./Components/Footer";
 import TeamMembers from "./Pages/TeamMembers";
 import ScrollToTop from "./Components/ScrollToTop";
+import { Toaster } from "react-hot-toast";
 
 const App = () => {
   const [theme, setTheme] = useState("light");
@@ -19,6 +20,7 @@ const App = () => {
       transition={{ duration: 0.3 }}
       className="min-h-screen flex flex-col dark:bg-black"
     >
+      <Toaster />
       <Navbar theme={theme} setTheme={setTheme} />
       <motion.main
         initial={{ opacity: 0 }}

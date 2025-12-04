@@ -46,12 +46,6 @@ const OurServices = () => {
       description:
         "We provide comprehensive corporate secretarial support to ensure your business stays fully compliant. Our services include company registration, statutory filings, board and shareholder support, and ongoing corporate governance advisory for smooth and transparent operations.",
     },
-    {
-      image: assets.taxImg,
-      title: "Tax Services",
-      description:
-        "Stay compliant and confident with expert tax planning, VAT advisory, and revenue audit support. We handle income tax audits, return filing, and provide ongoing tax advisory to help your business stay ahead.",
-    },
   ];
   return (
     <motion.section

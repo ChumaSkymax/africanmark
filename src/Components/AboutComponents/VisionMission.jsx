@@ -36,11 +36,6 @@ const VisionMission = () => {
       description:
         "To provide efficient quality services in auditing, accounting, tax, and advisory that add value to our clients and stakeholders, using our professional team and an innovative approach tailored to clients needs",
     },
-    {
-      icon: values_icon,
-      title: "Values",
-      description: "Innovation, Professionalism and Efficiency",
-    },
   ];
 
   return (

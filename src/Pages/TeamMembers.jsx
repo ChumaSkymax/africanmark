@@ -136,19 +136,19 @@ const TeamMembers = () => {
             <div className="mt-8 space-y-5">
               <div>
                 <h3 className="text-sm font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-                  Education
+                  Education:
                 </h3>
                 <p className="mt-2">{member.education}</p>
               </div>
               <div>
                 <h3 className="text-sm uppercase tracking-wide text-slate-500 dark:text-slate-400">
-                  Experience
+                  Experience:
                 </h3>
                 <p className="mt-2">{member.experience}</p>
               </div>
               <div>
                 <h3 className="text-sm uppercase tracking-wide text-slate-500 dark:text-slate-400">
-                  Expertise
+                  Expertise:
                 </h3>
                 <p className="mt-2">{member.expertise}</p>
               </div>

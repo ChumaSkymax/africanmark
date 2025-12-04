@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { toast } from "react-toastify";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -17,10 +18,26 @@ const ContactForm = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log("Form submitted:", formData);
+    const formData = new FormData(e.target);
+    formData.append("access_key", "YOUR_ACCESS_KEY");
+    const object = Object.fromEntries(formData.entries());
+    const jsonData = JSON.stringify(object);
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: jsonData,
+    }).then((response) => response.json());
+    if (response.success) {
+      toast.success("Form submitted successfully");
+    } else {
+      toast.error("Form submission failed");
+    }
+    console.log("Form submitted:", response);
     // Reset form
     setFormData({
       name: "",

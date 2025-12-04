@@ -41,9 +41,9 @@ const Navbar = ({ theme, setTheme }) => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.4, delay: 0.1 }}
-          src={assets.AfriLogo}
+          src={assets.AfriLogoo}
           alt="AfriLogo"
-          className="h-10"
+          className="h-14"
         />
       </Link>
 

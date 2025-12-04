@@ -28,6 +28,7 @@ import crdbLogo from "./crdb.jpg";
 import traLogo from "./tra.jpg";
 import quickBooksLogo from "./quickBooks.jpg";
 import AfriLogo from "./AfriLogo.png";
+import AfriLogoo from "./AfriLogoo.svg";
 
 export const assets = {
   sun_icon,
@@ -49,6 +50,7 @@ export const assets = {
   traLogo,
   quickBooksLogo,
   AfriLogo,
+  AfriLogoo,
 };
 
 // Export individual icons for VisionMission component

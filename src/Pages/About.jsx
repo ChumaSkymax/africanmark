@@ -4,6 +4,7 @@ import VisionMission from "../Components/AboutComponents/VisionMission";
 import AchievementHighlights from "../Components/AboutComponents/AchievementHighlights";
 import OurTeam from "../Components/AboutComponents/OurTeam";
 import { motion } from "framer-motion";
+import CoreValues from "../Components/AboutComponents/CoreValues";
 
 const About = () => {
   return (
@@ -14,6 +15,7 @@ const About = () => {
     >
       <OurStory />
       <VisionMission />
+      <CoreValues />
       <AchievementHighlights />
       <OurTeam />
     </motion.div>

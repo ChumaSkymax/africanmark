@@ -112,8 +112,18 @@ const OurStory = () => {
           transition={{ duration: 0.5, delay: 0.18 }}
           viewport={{ once: true }}
         />
+
+        <motion.h1
+          initial={{ opacity: 0, y: 8 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.45, delay: 0.1 }}
+          viewport={{ once: true }}
+          className="mt-4 text-xl font-bold text-gray-600 dark:text-gray-300"
+        >
+          Our Beginning
+        </motion.h1>
         <motion.p
-          className="mt-8"
+          className="mt-2"
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
@@ -122,49 +132,49 @@ const OurStory = () => {
           Founded in 2015, Africanmark Services is a Tanzanian professional firm
           offering audit, tax, accounting, and advisory solutions.{" "}
         </motion.p>
+
+        <motion.h1
+          initial={{ opacity: 0, y: 8 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.45, delay: 0.1 }}
+          viewport={{ once: true }}
+          className="mt-4 text-xl font-bold text-gray-600 dark:text-gray-300"
+        >
+          Where We Operate
+        </motion.h1>
         <motion.p
-          className="mt-4"
+          className="mt-2"
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.28 }}
           viewport={{ once: true }}
         >
-          With offices in Dodoma and Dar es Salaam, we serve public
-          institutions, NGOs, and private clients across diverse sectors.
+          We serve clients across Dodoma, Dar es Salaam, and Zanzibar supporting
+          institutions, NGOs, and businesses in diverse sectors.
         </motion.p>
+        <motion.h1
+          initial={{ opacity: 0, y: 8 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.45, delay: 0.1 }}
+          viewport={{ once: true }}
+          className="mt-4 text-xl font-bold text-gray-600 dark:text-gray-300"
+        >
+          Target Market
+        </motion.h1>
+
         <motion.p
-          className="mt-4"
+          className="mt-2"
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.36 }}
           viewport={{ once: true }}
         >
-          Our team combines local expertise with global best practices to
-          deliver reliable, compliant, and impact-driven solutions. At
-          Africanmark Services, we exist to empower growth and build lasting
-          trust.
+          Our target market includes public institutions, international and
+          local NGOs, private companies, and professional service organizations
+          seeking reliable audit, tax, accounting, and advisory solutions. We
+          serve clients who value accuracy, compliance, and strategic guidance
+          to strengthen their operations and achieve sustainable growth.
         </motion.p>
-        <motion.button
-          className="flex items-center gap-2 mt-8 hover:-translate-y-0.5 transition bg-gradient-to-r from-primary to-secondary py-3 px-8 rounded-full text-white"
-          whileTap={{ scale: 0.98 }}
-        >
-          <span>Read more</span>
-          <motion.svg
-            width="13"
-            height="12"
-            viewBox="0 0 13 12"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            initial={{ x: 0 }}
-            whileHover={{ x: 2 }}
-            transition={{ type: "tween", duration: 0.2 }}
-          >
-            <path
-              d="M12.53 6.53a.75.75 0 0 0 0-1.06L7.757.697a.75.75 0 1 0-1.06 1.06L10.939 6l-4.242 4.243a.75.75 0 0 0 1.06 1.06zM0 6v.75h12v-1.5H0z"
-              fill="#fff"
-            />
-          </motion.svg>
-        </motion.button>
       </motion.div>
     </motion.section>
   );
