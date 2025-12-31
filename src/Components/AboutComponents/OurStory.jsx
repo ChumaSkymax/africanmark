@@ -1,8 +1,11 @@
 import React from "react";
 import { assets } from "../../assets/asset";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 const OurStory = () => {
+
+  const navigate = useNavigate();
   return (
     <motion.section
       className="flex flex-col md:flex-row items-center justify-center gap-8 px-6 md:px-12 lg:px-24 xl:px-32 mt-36 mb-20 "
@@ -35,11 +38,13 @@ const OurStory = () => {
           viewport={{ once: true }}
         >
           <motion.div
-            className="flex -space-x-4 shrink-0"
+            className="flex -space-x-4 shrink-0 cursor-pointer"
             initial="hidden"
             whileInView="show"
             viewport={{ once: true }}
             transition={{ staggerChildren: 0.08, delayChildren: 0.1 }}
+            onClick={()=>navigate("/partners")}
+            
           >
             <motion.img
               src={assets.crdbLogo}

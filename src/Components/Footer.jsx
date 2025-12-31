@@ -46,31 +46,11 @@ const Footer = ({ theme }) => {
         </div>
         <div className="flex items-center gap-3 md:gap-4 mt-6 md:mt-8 text-[#e1843e]">
           <motion.a
-            href="#"
+            href="https://www.instagram.com/africanmarkservice/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hover:-translate-y-0.5 transition-all duration-300"
-            aria-label="Facebook"
-            whileTap={{ scale: 0.95 }}
-          >
-            <motion.svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </motion.svg>
-          </motion.a>
-          <motion.a
-            href="#"
-            className="hover:-translate-y-0.5 transition-all duration-300"
-            aria-label="Facebook"
+            aria-label="Instagram"
             whileTap={{ scale: 0.95 }}
           >
             <motion.svg
@@ -97,9 +77,11 @@ const Footer = ({ theme }) => {
             </motion.svg>
           </motion.a>
           <motion.a
-            href="#"
+            href="https://x.com/africanmarktz"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hover:-translate-y-0.5 transition-all duration-300"
-            aria-label="Facebook"
+            aria-label="X (Twitter)"
             whileTap={{ scale: 0.95 }}
           >
             <motion.svg
@@ -110,62 +92,8 @@ const Footer = ({ theme }) => {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6M6 9H2v12h4zM4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </motion.svg>
-          </motion.a>
-          <motion.a
-            href="#"
-            className="hover:-translate-y-0.5 transition-all duration-300"
-            aria-label="Facebook"
-            whileTap={{ scale: 0.95 }}
-          >
-            <motion.svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </motion.svg>
-          </motion.a>
-          <motion.a
-            href="#"
-            className="hover:-translate-y-0.5 transition-all duration-300"
-            aria-label="Facebook"
-            whileTap={{ scale: 0.95 }}
-          >
-            <motion.svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-              <path
-                d="M9 18c-4.51 2-5-2-7-2"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                fill="currentColor"
               />
             </motion.svg>
           </motion.a>

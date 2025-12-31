@@ -10,6 +10,7 @@ import Footer from "./Components/Footer";
 import TeamMembers from "./Pages/TeamMembers";
 import ScrollToTop from "./Components/ScrollToTop";
 import { Toaster } from "react-hot-toast";
+import Partners from "./Pages/Partners";
 
 const App = () => {
   const [theme, setTheme] = useState("light");
@@ -18,7 +19,7 @@ const App = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.3 }}
-      className="min-h-screen flex flex-col dark:bg-black"
+      className="min-h-screen flex flex-col dark:bg-black max-w-7xl mx-auto w-full"
     >
       <Toaster />
       <Navbar theme={theme} setTheme={setTheme} />
@@ -34,6 +35,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/partners" element={<Partners />} />
           <Route path="/team-members/:id" element={<TeamMembers />} />
         </Routes>
       </motion.main>

@@ -6,6 +6,7 @@ import WhyChooseUs from "../Components/HomeComponents/WhyChooseUs";
 import PartnerWithUs from "../Components/HomeComponents/PartnerWithUs";
 import CTABanner from "../Components/Service Components/CTABanner";
 import { motion } from "framer-motion";
+import OurClients from "../Components/HomeComponents/OurClients";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
     >
       <Hero />
       <FeatureSection />
+      <OurClients/>
       <WhyChooseUs />
       <CTABanner />
     </motion.div>

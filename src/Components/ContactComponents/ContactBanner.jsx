@@ -250,9 +250,11 @@ const ContactBanner = () => {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-sm text-white/80">Dar es Salaam</p>
-                    <p className="font-medium text-white">
-                      5th Floor, Ngome House, TRA Road, Africa Sana
+                    <p className="text-sm text-white/80">Dar es Salaam  Head office</p>
+                    <p className="font-medium text-white text-sm">
+                   
+                    5th Floor at Ngome House,
+                    TRA Road, Africa sana, Dar es Salaam
                     </p>
                   </div>
                 </address>
@@ -280,9 +282,10 @@ const ContactBanner = () => {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-sm text-white/80">Dodoma</p>
-                    <p className="font-medium text-white">
-                      Morogoro Road, Opposite Aga Khan Hospital
+                    <p className="text-sm text-white/80">Dodoma Branch</p>
+                    <p className="font-medium text-white text-sm">
+                    Morogoro Road opposite
+                    Agakhan Hospital Dodoma
                     </p>
                   </div>
                 </address>

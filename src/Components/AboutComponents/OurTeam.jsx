@@ -20,10 +20,24 @@ const team = [
   },
   {
     _id: 3,
+    name: "Gloria Joel Bendera",
+    role: "Partner",
+    bio: "Financial and systems audits, donor-funded project verification, IFRS & ISA compliance, statutory..",
+    image: assets.profile5,
+  },
+  {
+    _id: 4,
     name: "Zelda Zelothe",
     role: "Assurance Manager",
     bio: "With 3 years of experience in financial management and auditing, specializing in corporate finance, tax advisory, audit assurance, and compliance..",
     image: assets.profile3,
+  },
+  {
+    _id: 5,
+    name: "Godfrey P. Mbapila",
+    role: "Senior Audit and Tax Professional",
+    bio: "A motivated and ambitious professional with solid experience in financial reporting, financial analysis, taxation..",
+    image: assets.profile4,
   },
 ];
 

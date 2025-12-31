@@ -24,11 +24,35 @@ import achievementImage from "./Achievement.png";
 import profile1 from "./Profile images-1.png";
 import profile2 from "./Profile images-02.png";
 import profile3 from "./Profile images-03.png";
+import profile4 from "./Profile images-04.png";
+import profile5 from "./Profile image 05.png";
 import crdbLogo from "./crdb.jpg";
 import traLogo from "./tra.jpg";
 import quickBooksLogo from "./quickBooks.jpg";
 import AfriLogo from "./AfriLogo.png";
 import AfriLogoo from "./AfriLogoo.svg";
+import CRDB from "./partners/CRDB.jpg";
+import NationalBoard from "./partners/National Board.jpg";
+import QuickBooks from "./partners/QuickBooks.jpg";
+import TanEA from "./partners/TanEA.jpg";
+import TAWCA from "./partners/TAWCA.jpg";
+import TIIA from "./partners/TIIA.jpg";
+import Tra from "./partners/Tra.jpg";
+import Xero from "./partners/xero.jpg";
+import client1 from "./clients/Partner05.jpg";
+import client2 from "./clients/Partner09.jpg";
+import client3 from "./clients/Partner11.jpg";
+import client4 from "./clients/Partner12.jpg";
+import client5 from "./clients/Partner13.jpg";
+import client6 from "./clients/Partner14.jpg";
+import client7 from "./clients/Partner15.jpg";
+import client8 from "./clients/Partner16.jpg";
+import client9 from "./clients/Partner17.jpg";
+import client10 from "./clients/Partner18.jpg";
+import client11 from "./clients/Partner19.jpg";
+import client12 from "./clients/Partner21.jpg";
+import client13 from "./clients/Partner22.jpg";
+import client14 from "./clients/Partner23.jpg";
 
 export const assets = {
   sun_icon,
@@ -46,11 +70,35 @@ export const assets = {
   profile1,
   profile2,
   profile3,
+  profile4,
+  profile5,
   crdbLogo,
   traLogo,
   quickBooksLogo,
   AfriLogo,
   AfriLogoo,
+  CRDB,
+  NationalBoard,
+  QuickBooks,
+  TanEA,
+  TAWCA,
+  TIIA,
+  Tra,
+  Xero,
+  client1,
+  client2,
+  client3,
+  client4,
+  client5,
+  client6,
+  client7,
+  client8,
+  client9,
+  client10,
+  client11,
+  client12,
+  client13,
+  client14,
 };
 
 // Export individual icons for VisionMission component
@@ -73,6 +121,12 @@ export { profile1, profile2, profile3 };
 
 // Export logo images individually
 export { crdbLogo, traLogo, quickBooksLogo };
+
+// Export partner images individually
+export { CRDB, NationalBoard, QuickBooks, TanEA, TAWCA, TIIA, Tra, Xero };
+
+// Export client images individually
+export { client1, client2, client3, client4, client5, client6, client7, client8, client9, client10, client11, client12, client13, client14 };
 
 export const expertise = [
   {

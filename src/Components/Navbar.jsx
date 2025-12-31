@@ -29,12 +29,13 @@ const Navbar = ({ theme, setTheme }) => {
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeInOut" }}
-      className={`fixed top-0 left-0 w-full flex items-center justify-between px-4 md:px-16 lg:px-24 xl:px-32 transition-all duration-500 z-50 ${
+      className={`fixed top-0 left-0 right-0 w-full transition-all duration-500 z-50 ${
         isScrolled
           ? "bg-white/80 text-gray-700 shadow-md backdrop-blur-lg py-3 md:py-4 dark:bg-black dark:text-white"
           : "bg-primary/90 text-white py-4 md:py-6 dark:bg-black"
       }`}
     >
+      <div className="flex items-center justify-between px-4 md:px-16 lg:px-24 xl:px-32 max-w-7xl mx-auto w-full">
       {/* Logo */}
       <Link to="/" className="flex items-center gap-2">
         <motion.img
@@ -80,7 +81,7 @@ const Navbar = ({ theme, setTheme }) => {
         <ToggleTheme theme={theme} setTheme={setTheme} />
         <Link
           to="/contact"
-          className={`px-8 py-2.5 rounded-full ml-4 transition-all duration-500 bg-gradient-to-r from-primary to-secondary text-white shadow-sm hover:shadow-md`}
+          className={`px-8 py-2.5 rounded-full ml-4 transition-all duration-500 bg-white text-primary border-1 border-primary shadow-sm hover:shadow-md`}
         >
           Connect
         </Link>
@@ -147,11 +148,12 @@ const Navbar = ({ theme, setTheme }) => {
         <Link
           to="/contact"
           onClick={() => setIsMenuOpen(false)}
-          className="bg-gradient-to-r from-primary to-secondary text-white px-8 py-2.5 rounded-full transition-all duration-500"
+          className="bg-white text-primary border-1 border-primary px-8 py-2.5 rounded-full transition-all duration-500"
         >
           Connect
         </Link>
       </motion.div>
+      </div>
     </motion.nav>
   );
 };

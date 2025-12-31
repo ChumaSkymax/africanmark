@@ -40,6 +40,18 @@ const TeamMembers = () => {
     },
     {
       _id: 3,
+      name: "Gloria Joel Bendera",
+      role: "Partner",
+      education:
+        "Bachelor of Accounting and Finance, Mzumbe University MSc in Economics and Finance for Development, Mzumbe University (affiliated with Bradford University UK – currently at dissertation stage)",
+      experience:
+        "Financial and systems audits, donor-funded project verification, IFRS & ISA compliance, statutory reporting, and advisory services across sectors including banking, NGOs, oil & gas, aviation, and agriculture  ",
+      expertise:
+        "",
+      image: assets.profile5,
+    },
+    {
+      _id: 4,
       name: "Zelda Zelothe",
       role: "Assurance Manager",
       education:
@@ -50,14 +62,20 @@ const TeamMembers = () => {
         "Specializes in corporate finance, tax advisory, audit assurance, and compliance. Zelda is known for her attention to detail, accuracy, and commitment to delivering reliable financial insights that support informed decision-making.",
       image: assets.profile3,
     },
-
     {
-      _id: 4,
-      name: "Zelda Zelothe",
-      role: "Assurance Manager",
-      bio: "With 3 years of experience in financial management and auditing, specializing in corporate finance, tax advisory, audit assurance, and compliance..",
-      image: assets.profile3,
+      _id: 5,
+      name: "Godfrey P. Mbapila",
+      role: "Senior Audit and Tax Professional",
+      education:
+        " Bachelor of Accounting and Finance – National Institute of Transport (NIT)",
+      experience:
+        "A results-driven audit and tax practitioner with over two years of hands-on experience in Advisory, Assurance, and Tax services at BAKERTILLY DGP CO. LTD. Proven expertise in executing high-quality audits, preparing accurate and reliable financial reports, and delivering compliance-oriented tax advisory services to diverse clients across various industries.",
+      expertise:
+        "A motivated and ambitious professional with solid experience in financial reporting, financial analysis, taxation, and both internal and external audits. Skilled in producing precise financial assessments, identifying key risks, and ensuring adherence to regulatory requirements and international standards. Highly committed to enhancing financial integrity, accountability, and long-term organizational growth",
+      image: assets.profile4,
     },
+
+   
   ];
 
   if (!member) {
