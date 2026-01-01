@@ -19,7 +19,7 @@ const App = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.3 }}
-      className="min-h-screen flex flex-col dark:bg-black max-w-7xl mx-auto w-full"
+      className="min-h-screen flex flex-col w-full dark:bg-black"
     >
       <Toaster />
       <Navbar theme={theme} setTheme={setTheme} />
@@ -27,7 +27,7 @@ const App = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.3, delay: 0.1 }}
-        className="flex-grow"
+        className="flex-grow xl:max-w-7xl xl:mx-auto w-full"
       >
         <ScrollToTop />
         <Routes>
