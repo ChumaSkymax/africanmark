@@ -284,8 +284,8 @@ const ContactBanner = () => {
                   <div>
                     <p className="text-sm text-white/80">Dodoma Branch</p>
                     <p className="font-medium text-white text-sm">
-                    Morogoro Road opposite
-                    Agakhan Hospital Dodoma
+                    Makole Near Rainbow, P.O Box 1126
+                    Dodoma, Tanzania
                     </p>
                   </div>
                 </address>

@@ -13,7 +13,7 @@ import values_icon from "./values.svg";
 import expansion_icon from "./expansion.svg";
 import trust_icon from "./trust.svg";
 import expertise_icon from "./expertise.svg";
-import aboutImg from "./about.jpg";
+import aboutImg from "./about.png";
 import accountingImg from "./AccountingImg.jpg";
 import taxImg from "./TaxImg.jpg";
 import advisoryImg from "./AdvisoryImg.jpg";

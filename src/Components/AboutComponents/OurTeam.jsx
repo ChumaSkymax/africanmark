@@ -58,7 +58,7 @@ const OurTeam = () => {
         transition={{ duration: 0.45, delay: 0.1 }}
         viewport={{ once: true }}
       >
-        Meet Our People
+        Meet Our Team
       </motion.h1>
       <motion.p
         className="w-3/5 mb-14 text-gray-500 text-sm"
